@@ -10,3 +10,5 @@ sudo apt install -y cockpit-* incus* podman* distrobox
 Sudo adduser superuser && sudo passwd superuser
 
 curl -fsSL https://pixi.sh/install.sh | sh
+
+curl -fsSL https://antigravity.google/cli/install.sh | bash
