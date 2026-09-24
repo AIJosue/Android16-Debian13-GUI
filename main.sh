@@ -5,3 +5,6 @@ sudo apt update
 
 # 2. install packages 
 sudo apt install -y cockpit-* incus* podman* distrobox
+
+# 3. add user and set password 
+Sudo adduser superuser && sudo passwd superuser
