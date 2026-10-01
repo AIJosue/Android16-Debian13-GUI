@@ -4,7 +4,7 @@
 sudo apt update
 
 # 2. install packages 
-sudo apt install -y cockpit-* incus* podman* distrobox
+sudo apt install -y cockpit-* podman* distrobox
 
 # 3. Run scripts inside the 'debian' user context
 sudo -u debian -H bash << 'EOF'
